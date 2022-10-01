@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>GUID Generator</h1>
+
+        <div class="output">
+            <span id="result"></span>
+            <button class="btn" id="clipboard">
+                <i class="far fa-clipboard"></i>
+            </button>
+        </div>
+
+        <div class="form" id="form">
+            <div class="form-input">
+                <label for="uppercase">Uppercase</label>
+                <input type="checkbox" id="uppercase">
+            </div>
+            <div class="form-input">
+                <label for="encbr">Enclose in {braces}</label>
+                <input type="checkbox" id="encbr">
+            </div>
+
+            <button id="generate">Generate GUID</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
